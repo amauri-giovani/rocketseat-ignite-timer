@@ -1,0 +1,36 @@
+Instalar após criar o projeto
+para estilos:
+npm i styled-components
+npm i @types/styled-components -D
+
+para padrões no editor:
+npm i eslint -D
+npm i @rocketseat/eslint-config -D
+
+para rotas:
+npm i react-router-dom
+
+para ícones (não sei se tem componente)
+npm i phosphor-react
+
+para controle dos formulários (controlled / uncontrolled)
+por padrão essa lib não tem validação
+npm i react-hook-form
+
+para validação de formulários usamos o zod pq tem uma integração melhor com typescript
+npm i zod
+
+para integrar react-hook-form com as libs de validação
+npm i @hookform/resolvers
+
+para trabalhar com datas
+npm i date-fns
+
+
+COMUNICAÇÃO ENTRE COMPONENTES
+
+Prop Drilling
+Quando temos MUITAS propriedades APENAS para comunicação entre componentes
+
+Context API
+Permite compartilharmos informações entre VÁRIOS componentes ao mesmo tempo
